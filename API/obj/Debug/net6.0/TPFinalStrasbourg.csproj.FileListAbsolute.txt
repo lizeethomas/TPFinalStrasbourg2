@@ -84,3 +84,13 @@ E:\Bureau\POEI\TPFinalStrasbourg\obj\Debug\net6.0\refint\TPFinalStrasbourg.dll
 E:\Bureau\POEI\TPFinalStrasbourg\obj\Debug\net6.0\TPFinalStrasbourg.pdb
 E:\Bureau\POEI\TPFinalStrasbourg\obj\Debug\net6.0\TPFinalStrasbourg.genruntimeconfig.cache
 E:\Bureau\POEI\TPFinalStrasbourg\obj\Debug\net6.0\ref\TPFinalStrasbourg.dll
+C:\Users\frits\Documents\Csharp\Cours_Exos\06 - TpFinal\TPFinalStrasbourg\API\obj\Debug\net6.0\TPFinalStrasbourg.csproj.AssemblyReference.cache
+C:\Users\frits\Documents\Csharp\Cours_Exos\06 - TpFinal\TPFinalStrasbourg\API\obj\Debug\net6.0\TPFinalStrasbourg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\frits\Documents\Csharp\Cours_Exos\06 - TpFinal\TPFinalStrasbourg\API\obj\Debug\net6.0\TPFinalStrasbourg.AssemblyInfoInputs.cache
+C:\Users\frits\Documents\Csharp\Cours_Exos\06 - TpFinal\TPFinalStrasbourg\API\obj\Debug\net6.0\TPFinalStrasbourg.AssemblyInfo.cs
+C:\Users\frits\Documents\Csharp\Cours_Exos\06 - TpFinal\TPFinalStrasbourg\API\obj\Debug\net6.0\TPFinalStrasbourg.csproj.CoreCompileInputs.cache
+C:\Users\frits\Documents\Csharp\Cours_Exos\06 - TpFinal\TPFinalStrasbourg\API\obj\Debug\net6.0\TPFinalStrasbourg.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\frits\Documents\Csharp\Cours_Exos\06 - TpFinal\TPFinalStrasbourg\API\obj\Debug\net6.0\TPFinalStrasbourg.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\frits\Documents\Csharp\Cours_Exos\06 - TpFinal\TPFinalStrasbourg\API\obj\Debug\net6.0\TPFinalStrasbourg.dll
+C:\Users\frits\Documents\Csharp\Cours_Exos\06 - TpFinal\TPFinalStrasbourg\API\obj\Debug\net6.0\refint\TPFinalStrasbourg.dll
+C:\Users\frits\Documents\Csharp\Cours_Exos\06 - TpFinal\TPFinalStrasbourg\API\obj\Debug\net6.0\TPFinalStrasbourg.pdb

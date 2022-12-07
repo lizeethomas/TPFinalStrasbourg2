@@ -9,6 +9,7 @@ public class User
     private string name;
     private string email;
     private string password;
+    private bool status;
 
     [Column("id")]
     public int Id
@@ -36,6 +37,13 @@ public class User
     {
         get => password;
         set => password = value ?? throw new ArgumentNullException(nameof(password));
+    }
+
+    [Column("user_status")]
+    public bool Status
+    {
+        get => status;
+        set => status = value;
     }
 
     [ForeignKey("RoleId")]

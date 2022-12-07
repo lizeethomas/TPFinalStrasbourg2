@@ -44,7 +44,8 @@ namespace TPFinalStrasbourg.Services
             {
                 Name = req.Name,
                 Email = req.Email,
-                Password = req.Password
+                Password = req.Password,
+                Status = true
             };
 
             Role role = _roleRepo.FindById(1);
@@ -69,7 +70,8 @@ namespace TPFinalStrasbourg.Services
             {
                 Name = req.Name,
                 Email = req.Email,
-                Password = req.Password
+                Password = req.Password,
+                Status = false
             };
 
             Role role = _roleRepo.FindById(2);
