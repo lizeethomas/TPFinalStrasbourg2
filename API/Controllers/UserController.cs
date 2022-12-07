@@ -58,11 +58,7 @@ namespace TPFinalStrasbourg.Controllers
         public IActionResult Login([FromForm] string email, [FromForm] string password)
         {
             string token = _jwtService.GetJWT(email, password);
-            if (token != null)
-            {
-                return Ok(token);
-            }
-            return StatusCode(403);
+            return Ok(token);
         }
     }
 }

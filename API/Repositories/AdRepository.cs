@@ -10,6 +10,12 @@ public class AdRepository:BaseRepository<Ad>
     {
     }
 
+    public bool Delete(Ad element)
+    {
+        _dataContext.Remove(element);
+        return Update();
+    }
+
     public override List<Ad> FindAll()
     {
         return _dataContext.Ads.Include(a => a.Images).Include(a => a.Comments).Include(a => a.Category).ToList();

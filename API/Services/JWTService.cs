@@ -19,7 +19,7 @@ namespace TPFinalStrasbourg.Services
         public string GetJWT(string email, string password)
         {
             User user = _userRepository.SearchOne(u => u.Email == email && u.Password == password);
-            if (user != null)
+            if (user != null && user.Status)
             {
                 //Créer le token 
                 JwtSecurityTokenHandler jwtSecurityTokenHandler = new JwtSecurityTokenHandler();
