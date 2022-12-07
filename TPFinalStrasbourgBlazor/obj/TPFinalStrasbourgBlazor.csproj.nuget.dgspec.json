@@ -47,11 +47,11 @@
           "dependencies": {
             "Microsoft.AspNetCore.Components.Web": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.10, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.10, )"
             }
           },
           "imports": [

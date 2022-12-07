@@ -101,6 +101,7 @@ namespace TPFinalStrasbourg.Services
 
             foreach(Ad ad in ads)
             {
+                List<string> links = new List<string>();
                 AdResponseDTO response = new AdResponseDTO
                 {
                     Title = ad.Title,
@@ -109,6 +110,8 @@ namespace TPFinalStrasbourg.Services
                     Status = ad.Status,
                     Category = ad.Category.Name
                 };
+                ad.Images.ForEach(i=> links.Add(i.Url));
+                response.Urls = links;
                 responses.Add(response);
             }
             return responses;
@@ -123,6 +126,7 @@ namespace TPFinalStrasbourg.Services
             List<Ad> ads = _adRepo.SearchAll(a => a.Title.Contains(word) || a.Description.Contains(word));
             ads.ForEach(a =>
             {
+                List<string> links = new List<string>();
                 AdResponseDTO adResponse = new()
                 {
                     Title = a.Title,
@@ -131,6 +135,8 @@ namespace TPFinalStrasbourg.Services
                     Status = a.Status,
                     Category = a.Category.Name
                 };
+                a.Images.ForEach(i => links.Add(i.Url));
+                adResponse.Urls = links;
                 adResponses.Add(adResponse);
             });
             return adResponses;

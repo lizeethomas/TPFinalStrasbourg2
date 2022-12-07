@@ -10,6 +10,7 @@ namespace TPFinalStrasbourg.DTOs
         public string Status { get; set; }
         public string Category { get; set; }
         public DateTime Date { get; set; }
+        public List<string> Urls { get; set; }
     }
 
 }

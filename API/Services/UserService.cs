@@ -29,7 +29,8 @@ namespace TPFinalStrasbourg.Services
                     {
                         Name = u.Name,
                         Email = u.Email,
-                        UserRole = u.Role.RoleUser
+                        UserRole = u.Role.RoleUser,
+                        Status = u.Status
                     });
                 });
                 return responseDTOs;
@@ -56,6 +57,7 @@ namespace TPFinalStrasbourg.Services
                 response.Email = req.Email;
                 response.Name = req.Name;
                 response.UserRole = user.Role.RoleUser;
+                response.Status = user.Status;
 
                 return response;
             }
@@ -82,6 +84,7 @@ namespace TPFinalStrasbourg.Services
                 response.Email = req.Email;
                 response.Name = req.Name;
                 response.UserRole = user.Role.RoleUser;
+                response.Status = user.Status;
 
                 return response;
             }
